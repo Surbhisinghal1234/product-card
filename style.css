@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.cart {
+  position: relative;
+  box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.47);
+  border-radius: 10px;
+  width: 17rem;
+  padding: 20px;
+  display: flex;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+.cart .imgbox {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.cart .imgbox img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mens {
+  margin: 8px 0 0 0;
+}
+.mens h4 {
+  color: rgba(0, 0, 0, 0.475);
+  margin: 0;
+}
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px 0 20px;
+  background-color: white;
+  box-sizing: border-box;
+  height: 100px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.cart:hover .content {
+  height: 260px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+}
+.detail h3 {
+  margin: 0;
+  font-size: 18px;
+}
+.sizes {
+  margin-top: 6px;
+}
+
+.sizes p {
+  font-weight: 600;
+  margin: 0;
+}
+
+.sizes ul {
+  display: flex;
+  gap: 0 10px;
+  padding: 0;
+  padding: 4px 0;
+}
+.colors ul li:nth-child(1) {
+  background-color: yellow;
+}
+.colors ul li:nth-child(2) {
+  background-color: brown;
+}
+.colors ul li:nth-child(3) {
+  background-color: green;
+}
+.colors ul li:nth-child(4) {
+  background-color: navy;
+}
+.colors ul li:nth-child(5) {
+  background-color: skyblue;
+}
+
+.sizes ul li {
+  list-style: none;
+}
+
+.colors {
+  padding-top: 5px;
+}
+
+.colors p {
+  font-weight: 600;
+  margin: 0;
+}
+
+.colors ul {
+  display: flex;
+  gap: 0 10px;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.colors ul li {
+  padding: 10px;
+  list-style: none;
+  border-radius: 2px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.btn button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 15px;
+  width: 15rem;
+  padding: 5px 0;
+  border-radius: 2px;
+}
+.btn button:hover {
+  color: rgb(200, 118, 118);
+  transition: all 0.5s ease-in-out;
+  font: 600;
+}
