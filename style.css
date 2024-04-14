@@ -14,10 +14,11 @@
   display: flex;
   margin: 2rem auto;
   overflow: hidden;
+  height: 22rem;
 }
 
 .cart .imgbox {
-  height: 300px;
+  height: 230px;
   width: 100%;
   margin-bottom: 20px;
   object-fit: cover;
@@ -76,27 +77,88 @@
 .sizes ul {
   display: flex;
   gap: 0 10px;
-  padding: 0;
   padding: 4px 0;
 }
-.colors ul li:nth-child(1) {
-  background-color: yellow;
-}
-.colors ul li:nth-child(2) {
-  background-color: brown;
-}
-.colors ul li:nth-child(3) {
-  background-color: green;
-}
-.colors ul li:nth-child(4) {
-  background-color: navy;
-}
-.colors ul li:nth-child(5) {
-  background-color: skyblue;
-}
-
 .sizes ul li {
   list-style: none;
+  font-size: 13px;
+  padding: 0 3px;
+}
+
+.sizes ul li:nth-child(1):hover {
+  background-color: red;
+  transition: all 0.5s ease-in-out;
+  padding: 0 3px;
+  border-radius: 2px;
+  color: #fff;
+}
+.sizes ul li:nth-child(2):hover {
+  background-color: green;
+  transition: all 0.5s ease-in-out;
+  border-radius: 2px;
+  color: #fff;
+
+  padding: 0 3px;
+}
+.sizes ul li:nth-child(3):hover {
+  background-color: blue;
+  transition: all 0.5s ease-in-out;
+  border-radius: 2px;
+  color: #fff;
+
+  padding: 0 3px;
+}
+.sizes ul li:nth-child(4):hover {
+  background-color: yellow;
+  transition: all 0.5s ease-in-out;
+  border-radius: 2px;
+
+  padding: 0 3px;
+}
+.sizes ul li:nth-child(5):hover {
+  background-color: green;
+  transition: all 0.5s ease-in-out;
+  border-radius: 2px;
+  color: #fff;
+
+  padding: 0 3px;
+}
+.colors ul li:nth-child(1) {
+  background-color: antiquewhite;
+}
+
+.colors ul li:nth-child(2) {
+  background-color: green;
+}
+.colors ul li:nth-child(3) {
+  background-color: brown;
+}
+.colors ul li:nth-child(4) {
+  background-color: rgba(41, 37, 31, 0.852);
+}
+.colors ul li:nth-child(5) {
+  background-color: chocolate;
+}
+.colors ul li:nth-child(1):hover {
+  background-color: rgba(0, 0, 128, 0.61);
+  transition: all 0.3s ease-in-out;
+}
+
+.colors ul li:nth-child(2):hover {
+  background-color: darkmagenta;
+  transition: all 0.3s ease-in-out;
+}
+.colors ul li:nth-child(3):hover {
+  background-color: greenyellow;
+  transition: all 0.3s ease-in-out;
+}
+.colors ul li:nth-child(4):hover {
+  background-color: rgba(0, 0, 128, 0.639);
+  transition: all 0.3s ease-in-out;
+}
+.colors ul li:nth-child(5):hover {
+  background-color: rgba(8, 58, 78, 0.717);
+  transition: all 0.3s ease-in-out;
 }
 
 .colors {
@@ -138,7 +200,15 @@
   border-radius: 2px;
 }
 .btn button:hover {
-  color: rgb(200, 118, 118);
-  transition: all 0.5s ease-in-out;
-  font: 600;
+  color: #000;
+  background: linear-gradient(
+    to right,
+    rgba(200, 118, 118, 0.8),
+    rgba(255, 153, 153, 0.8)
+  );
+  transition: all 0.4s ease-in-out;
+}
+.detail h3 span i {
+  font-size: 15px;
+  padding-right: 5px;
 }
